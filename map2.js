@@ -32,6 +32,7 @@ function initMap() {
         marker.addListener('click', () => {
             infoWindow.setContent("Karlovo")
             infoWindow.open(map)
+            console.log('hello');
         })
 
     });
